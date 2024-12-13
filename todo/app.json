@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "todo",
+    "slug": "todo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tiertodo"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/JarIcon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.tiertodo"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-build-properties"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "fd24b6bf-0719-40cb-8d39-74813046a9e1"
+      }
+    }
+  }
+}
